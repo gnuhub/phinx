@@ -2,5 +2,44 @@
 :project:
   :version: '4'
   :component:
-    :name: PhpProjectSharedConfiguration
+  - :name: PhpIncludePathManager
+    :include_path:
+      :path:
+      - :value: "$PROJECT_DIR$/vendor/sebastian/resource-operations"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/object-reflector"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/diff"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup"
+      - :value: "$PROJECT_DIR$/vendor/squizlabs/php_codesniffer"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/version"
+      - :value: "$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock"
+      - :value: "$PROJECT_DIR$/vendor/webmozart/assert"
+      - :value: "$PROJECT_DIR$/vendor/phpdocumentor/reflection-common"
+      - :value: "$PROJECT_DIR$/vendor/phpdocumentor/type-resolver"
+      - :value: "$PROJECT_DIR$/vendor/composer"
+      - :value: "$PROJECT_DIR$/vendor/cakephp/cakephp-codesniffer"
+      - :value: "$PROJECT_DIR$/vendor/phar-io/manifest"
+      - :value: "$PROJECT_DIR$/vendor/myclabs/deep-copy"
+      - :value: "$PROJECT_DIR$/vendor/phpspec/prophecy"
+      - :value: "$PROJECT_DIR$/vendor/phar-io/version"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-timer"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-file-iterator"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-token-stream"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-text-template"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-code-coverage"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects"
+      - :value: "$PROJECT_DIR$/vendor/symfony/console"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/phpunit"
+      - :value: "$PROJECT_DIR$/vendor/symfony/config"
+      - :value: "$PROJECT_DIR$/vendor/symfony/polyfill-mbstring"
+      - :value: "$PROJECT_DIR$/vendor/symfony/yaml"
+      - :value: "$PROJECT_DIR$/vendor/symfony/filesystem"
+      - :value: "$PROJECT_DIR$/vendor/doctrine/instantiator"
+      - :value: "$PROJECT_DIR$/vendor/theseer/tokenizer"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/comparator"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/global-state"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/exporter"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/environment"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/object-enumerator"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/recursion-context"
+  - :name: PhpProjectSharedConfiguration
     :php_language_level: 5.4.0

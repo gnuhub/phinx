@@ -7,6 +7,11 @@
       :default: 'true'
       :id: 321b2dfd-cf8d-4d0e-a3de-245dd2a3af97
       :name: Default
+      :change:
+        :beforePath: "$PROJECT_DIR$/.idea/workspace.xml"
+        :beforeDir: 'false'
+        :afterPath: "$PROJECT_DIR$/.idea/workspace.xml"
+        :afterDir: 'false'
     :option:
     - :name: EXCLUDED_CONVERTED_TO_IGNORED
       :value: 'true'
@@ -26,7 +31,32 @@
     :pharConfigPath: "$PROJECT_DIR$/composer.json"
     :executablePath: "/usr/local/bin/composer"
   - :name: FileEditorManager
-    :leaf: 
+    :leaf:
+      :file:
+      - :leaf-file-name: phinx.yml
+        :pinned: 'false'
+        :current-in-tab: 'false'
+        :entry:
+          :file: file://$PROJECT_DIR$/phinx.yml
+          :provider:
+            :selected: 'true'
+            :editor-type-id: text-editor
+      - :leaf-file-name: phpstan.neon
+        :pinned: 'false'
+        :current-in-tab: 'false'
+        :entry:
+          :file: file://$PROJECT_DIR$/phpstan.neon
+          :provider:
+            :selected: 'true'
+            :editor-type-id: text-editor
+      - :leaf-file-name: phpcs.xml.dist
+        :pinned: 'false'
+        :current-in-tab: 'true'
+        :entry:
+          :file: file://$PROJECT_DIR$/phpcs.xml.dist
+          :provider:
+            :selected: 'true'
+            :editor-type-id: text-editor
   - :name: Git.Settings
     :option:
       :name: RECENT_GIT_ROOT_PATH
@@ -44,6 +74,44 @@
     :packageJsonPaths: 
   - :name: PhpWorkspaceProjectConfiguration
     :interpreter_name: PHP
+    :include_path:
+      :path:
+      - :value: "$PROJECT_DIR$/vendor/sebastian/resource-operations"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/object-reflector"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/diff"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup"
+      - :value: "$PROJECT_DIR$/vendor/squizlabs/php_codesniffer"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/version"
+      - :value: "$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock"
+      - :value: "$PROJECT_DIR$/vendor/webmozart/assert"
+      - :value: "$PROJECT_DIR$/vendor/phpdocumentor/reflection-common"
+      - :value: "$PROJECT_DIR$/vendor/phpdocumentor/type-resolver"
+      - :value: "$PROJECT_DIR$/vendor/composer"
+      - :value: "$PROJECT_DIR$/vendor/cakephp/cakephp-codesniffer"
+      - :value: "$PROJECT_DIR$/vendor/phar-io/manifest"
+      - :value: "$PROJECT_DIR$/vendor/myclabs/deep-copy"
+      - :value: "$PROJECT_DIR$/vendor/phpspec/prophecy"
+      - :value: "$PROJECT_DIR$/vendor/phar-io/version"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-timer"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-file-iterator"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-token-stream"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-text-template"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/php-code-coverage"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects"
+      - :value: "$PROJECT_DIR$/vendor/symfony/console"
+      - :value: "$PROJECT_DIR$/vendor/phpunit/phpunit"
+      - :value: "$PROJECT_DIR$/vendor/symfony/config"
+      - :value: "$PROJECT_DIR$/vendor/symfony/polyfill-mbstring"
+      - :value: "$PROJECT_DIR$/vendor/symfony/yaml"
+      - :value: "$PROJECT_DIR$/vendor/symfony/filesystem"
+      - :value: "$PROJECT_DIR$/vendor/doctrine/instantiator"
+      - :value: "$PROJECT_DIR$/vendor/theseer/tokenizer"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/comparator"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/global-state"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/exporter"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/environment"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/object-enumerator"
+      - :value: "$PROJECT_DIR$/vendor/sebastian/recursion-context"
   - :name: ProjectFrameBounds
     :extendedState: '6'
     :option:
@@ -84,7 +152,7 @@
     - :name: nodejs_npm_path_reset_for_default_project
       :value: 'true'
     - :name: settings.editor.selected.configurable
-      :value: reference.webide.settings.project.settings.php.composer
+      :value: reference.webide.settings.project.settings.php
   - :name: RunDashboard
     :option:
       :name: ruleStates
@@ -119,12 +187,12 @@
       - :from: '1524534617803'
         :duration: '598000'
       - :from: '1524537409352'
-        :duration: '483000'
+        :duration: '978000'
     :servers: 
   - :name: TimeTrackingManager
     :option:
       :name: totallyTimeSpent
-      :value: '1176000'
+      :value: '1671000'
   - :name: ToolWindowManager
     :frame:
       :x: '1440'
@@ -215,3 +283,17 @@
     :option:
       :name: myLimit
       :value: '2678400000'
+  - :name: editorHistoryManager
+    :entry:
+    - :file: file://$PROJECT_DIR$/phinx.yml
+      :provider:
+        :selected: 'true'
+        :editor-type-id: text-editor
+    - :file: file://$PROJECT_DIR$/phpstan.neon
+      :provider:
+        :selected: 'true'
+        :editor-type-id: text-editor
+    - :file: file://$PROJECT_DIR$/phpcs.xml.dist
+      :provider:
+        :selected: 'true'
+        :editor-type-id: text-editor
