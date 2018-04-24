@@ -7,11 +7,6 @@
       :default: 'true'
       :id: 321b2dfd-cf8d-4d0e-a3de-245dd2a3af97
       :name: Default
-      :change:
-        :beforePath: "$PROJECT_DIR$/.idea/workspace.xml"
-        :beforeDir: 'false'
-        :afterPath: "$PROJECT_DIR$/.idea/workspace.xml"
-        :afterDir: 'false'
     :option:
     - :name: EXCLUDED_CONVERTED_TO_IGNORED
       :value: 'true'
@@ -51,9 +46,17 @@
             :editor-type-id: text-editor
       - :leaf-file-name: phpcs.xml.dist
         :pinned: 'false'
-        :current-in-tab: 'true'
+        :current-in-tab: 'false'
         :entry:
           :file: file://$PROJECT_DIR$/phpcs.xml.dist
+          :provider:
+            :selected: 'true'
+            :editor-type-id: text-editor
+      - :leaf-file-name: phpunit.xml.dist
+        :pinned: 'false'
+        :current-in-tab: 'true'
+        :entry:
+          :file: file://$PROJECT_DIR$/phpunit.xml.dist
           :provider:
             :selected: 'true'
             :editor-type-id: text-editor
@@ -134,10 +137,17 @@
         :subPane:
           :expand:
             :path:
-              :item:
+            - :item:
               - :name: phinx
                 :type: b2602c69:ProjectViewProjectNode
               - :name: phinx
+                :type: 2a2b976b:PhpTreeStructureProvider$1
+            - :item:
+              - :name: phinx
+                :type: b2602c69:ProjectViewProjectNode
+              - :name: phinx
+                :type: 2a2b976b:PhpTreeStructureProvider$1
+              - :name: vendor
                 :type: 2a2b976b:PhpTreeStructureProvider$1
           :select: 
       - :id: Scope
@@ -152,7 +162,7 @@
     - :name: nodejs_npm_path_reset_for_default_project
       :value: 'true'
     - :name: settings.editor.selected.configurable
-      :value: reference.webide.settings.project.settings.php
+      :value: php.test.frameworks.configurable
   - :name: RunDashboard
     :option:
       :name: ruleStates
@@ -187,12 +197,12 @@
       - :from: '1524534617803'
         :duration: '598000'
       - :from: '1524537409352'
-        :duration: '978000'
+        :duration: '1201000'
     :servers: 
   - :name: TimeTrackingManager
     :option:
       :name: totallyTimeSpent
-      :value: '1671000'
+      :value: '1894000'
   - :name: ToolWindowManager
     :frame:
       :x: '1440'
@@ -294,6 +304,10 @@
         :selected: 'true'
         :editor-type-id: text-editor
     - :file: file://$PROJECT_DIR$/phpcs.xml.dist
+      :provider:
+        :selected: 'true'
+        :editor-type-id: text-editor
+    - :file: file://$PROJECT_DIR$/phpunit.xml.dist
       :provider:
         :selected: 'true'
         :editor-type-id: text-editor
