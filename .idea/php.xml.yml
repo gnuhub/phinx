@@ -1,0 +1,6 @@
+---
+:project:
+  :version: '4'
+  :component:
+    :name: PhpProjectSharedConfiguration
+    :php_language_level: 5.4.0
