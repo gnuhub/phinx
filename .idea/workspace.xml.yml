@@ -28,35 +28,11 @@
   - :name: FileEditorManager
     :leaf:
       :file:
-      - :leaf-file-name: phinx.yml
-        :pinned: 'false'
-        :current-in-tab: 'false'
-        :entry:
-          :file: file://$PROJECT_DIR$/phinx.yml
-          :provider:
-            :selected: 'true'
-            :editor-type-id: text-editor
-      - :leaf-file-name: phpstan.neon
-        :pinned: 'false'
-        :current-in-tab: 'false'
-        :entry:
-          :file: file://$PROJECT_DIR$/phpstan.neon
-          :provider:
-            :selected: 'true'
-            :editor-type-id: text-editor
-      - :leaf-file-name: phpcs.xml.dist
-        :pinned: 'false'
-        :current-in-tab: 'false'
-        :entry:
-          :file: file://$PROJECT_DIR$/phpcs.xml.dist
-          :provider:
-            :selected: 'true'
-            :editor-type-id: text-editor
-      - :leaf-file-name: phpunit.xml.dist
+        :leaf-file-name: phinx
         :pinned: 'false'
         :current-in-tab: 'true'
         :entry:
-          :file: file://$PROJECT_DIR$/phpunit.xml.dist
+          :file: file://$PROJECT_DIR$/bin/phinx
           :provider:
             :selected: 'true'
             :editor-type-id: text-editor
@@ -147,6 +123,13 @@
                 :type: b2602c69:ProjectViewProjectNode
               - :name: phinx
                 :type: 2a2b976b:PhpTreeStructureProvider$1
+              - :name: bin
+                :type: 2a2b976b:PhpTreeStructureProvider$1
+            - :item:
+              - :name: phinx
+                :type: b2602c69:ProjectViewProjectNode
+              - :name: phinx
+                :type: 2a2b976b:PhpTreeStructureProvider$1
               - :name: vendor
                 :type: 2a2b976b:PhpTreeStructureProvider$1
           :select: 
@@ -174,6 +157,12 @@
         - :option:
             :name: name
             :value: StatusDashboardGroupingRule
+  - :name: RunManager
+    :configuration:
+      :name: no_args
+      :type: PhpLocalRunConfigurationType
+      :factoryName: PHP Console
+      :path: "$PROJECT_DIR$/bin/phinx"
   - :name: SvnConfiguration
     :configuration: 
   - :name: TaskManager
@@ -197,12 +186,12 @@
       - :from: '1524534617803'
         :duration: '598000'
       - :from: '1524537409352'
-        :duration: '1201000'
+        :duration: '1442000'
     :servers: 
   - :name: TimeTrackingManager
     :option:
       :name: totallyTimeSpent
-      :value: '1894000'
+      :value: '2135000'
   - :name: ToolWindowManager
     :frame:
       :x: '1440'
@@ -217,7 +206,7 @@
         :id: Project
         :order: '0'
         :visible: 'true'
-        :weight: '0.2550586'
+        :weight: '0.13791268'
       - :anchor: bottom
         :id: TODO
         :order: '6'
@@ -295,11 +284,24 @@
       :value: '2678400000'
   - :name: editorHistoryManager
     :entry:
-    - :file: file://$PROJECT_DIR$/phinx.yml
+    - :file: file://$PROJECT_DIR$/composer.json
       :provider:
         :selected: 'true'
         :editor-type-id: text-editor
-    - :file: file://$PROJECT_DIR$/phpstan.neon
+        :state:
+          :relative-caret-position: '225'
+          :caret:
+            :line: '15'
+            :column: '38'
+            :selection-start-line: '15'
+            :selection-start-column: '38'
+            :selection-end-line: '15'
+            :selection-end-column: '38'
+    - :file: file://$PROJECT_DIR$/vendor/autoload.php
+      :provider:
+        :selected: 'true'
+        :editor-type-id: text-editor
+    - :file: file://$PROJECT_DIR$/phpunit.xml.dist
       :provider:
         :selected: 'true'
         :editor-type-id: text-editor
@@ -307,7 +309,15 @@
       :provider:
         :selected: 'true'
         :editor-type-id: text-editor
-    - :file: file://$PROJECT_DIR$/phpunit.xml.dist
+    - :file: file://$PROJECT_DIR$/phpstan.neon
+      :provider:
+        :selected: 'true'
+        :editor-type-id: text-editor
+    - :file: file://$PROJECT_DIR$/phinx.yml
+      :provider:
+        :selected: 'true'
+        :editor-type-id: text-editor
+    - :file: file://$PROJECT_DIR$/bin/phinx
       :provider:
         :selected: 'true'
         :editor-type-id: text-editor
